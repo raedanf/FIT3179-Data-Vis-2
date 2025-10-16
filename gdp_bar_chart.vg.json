@@ -1,0 +1,14 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": { "text": "GDPs of Oceanic Countries" },
+    "width": 600,
+    "height": 400,
+    "data": {
+        "url": "gdp_data.csv"
+    },
+    "mark": "bar",
+    "encoding": {
+        "x": { "field": "GDPpC", "type": "quantitative", "title":"GDP per Capita" },
+        "y": { "field": "Country", "type": "nominal", "title": "Countries", "sort": "-x" }
+    }
+}
