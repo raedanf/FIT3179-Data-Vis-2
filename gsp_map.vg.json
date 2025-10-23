@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Gross State Product of Australian States in Millions",
+  "width": 600,
+  "height": 400,
+  "projection": {"type": "mercator"},
+  "data": {
+    "url": "au.topojson",
+    "format": {"type": "topojson", "feature": "au"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.id",
+      "from": {
+      "data": {"url": "gsp_australia.csv"},
+      "key": "State",
+      "fields": ["GSP"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "black"},
+  "encoding": {
+    "color": {
+    "field": "GSP",
+    "type": "quantitative",
+    "scale": {"scheme": "blues"}
+    },
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "State Name"},
+      {"field": "GSP", "type": "quantitative", "title": "GSP ($AUD millions)"}
+    ]
+  }
+}

@@ -3,12 +3,12 @@
     "title": { "text": "GDPs of Oceanic Countries" },
     "width": 600,
     "height": 400,
-    "data": {
-        "url": "gdp_data.csv"
-    },
+    "data": { 
+        "url": "https://raw.githubusercontent.com/FIT3179-Data-Vis-2/main/state_pop.csv"
+},
     "mark": "bar",
     "encoding": {
-        "x": { "field": "GDPpC", "type": "quantitative", "title":"GDP per Capita" },
-        "y": { "field": "Country", "type": "nominal", "title": "Countries", "sort": "-x" }
+        "x": { "field": "Population", "type": "quantitative", "title":"GDP per Capita" },
+        "y": { "field": "State", "type": "nominal", "title": "Countries", "sort": "-x" }
     }
 }
