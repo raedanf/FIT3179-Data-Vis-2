@@ -1,0 +1,329 @@
+State,Date,Population
+New South Wales,2015/03/01,7595731
+New South Wales,2015/06/01,7616168
+New South Wales,2015/09/01,7645324
+New South Wales,2015/12/01,7671401
+New South Wales,2016/03/01,7707412
+New South Wales,2016/06/01,7732858
+New South Wales,2016/09/01,7767915
+New South Wales,2016/12/01,7795625
+New South Wales,2017/03/01,7833463
+New South Wales,2017/06/01,7855316
+New South Wales,2017/09/01,7884752
+New South Wales,2017/12/01,7900946
+New South Wales,2018/03/01,7934688
+New South Wales,2018/06/01,7954476
+New South Wales,2018/09/01,7984525
+New South Wales,2018/12/01,8003564
+New South Wales,2019/03/01,8032991
+New South Wales,2019/06/01,8046748
+New South Wales,2019/09/01,8071350
+New South Wales,2019/12/01,8088361
+New South Wales,2020/03/01,8112001
+New South Wales,2020/06/01,8110610
+New South Wales,2020/09/01,8098905
+New South Wales,2020/12/01,8094300
+New South Wales,2021/03/01,8093015
+New South Wales,2021/06/01,8097062
+New South Wales,2021/09/01,8096719
+New South Wales,2021/12/01,8117057
+New South Wales,2022/03/01,8153203
+New South Wales,2022/06/01,8182098
+New South Wales,2022/09/01,8223908
+New South Wales,2022/12/01,8264048
+New South Wales,2023/03/01,8317329
+New South Wales,2023/06/01,8356387
+New South Wales,2023/09/01,8406338
+New South Wales,2023/12/01,8437334
+New South Wales,2024/03/01,8477401
+New South Wales,2024/06/01,8492171
+New South Wales,2024/09/01,8521570
+New South Wales,2024/12/01,8541186
+New South Wales,2025/03/01,8579219
+Victoria,2015/03/01,5995205
+Victoria,2015/06/01,6022322
+Victoria,2015/09/01,6057558
+Victoria,2015/12/01,6093049
+Victoria,2016/03/01,6138627
+Victoria,2016/06/01,6173172
+Victoria,2016/09/01,6205852
+Victoria,2016/12/01,6235781
+Victoria,2017/03/01,6278555
+Victoria,2017/06/01,6302608
+Victoria,2017/09/01,6333514
+Victoria,2017/12/01,6358210
+Victoria,2018/03/01,6398586
+Victoria,2018/06/01,6423038
+Victoria,2018/09/01,6454976
+Victoria,2018/12/01,6479695
+Victoria,2019/03/01,6518716
+Victoria,2019/06/01,6537305
+Victoria,2019/09/01,6567898
+Victoria,2019/12/01,6590050
+Victoria,2020/03/01,6616636
+Victoria,2020/06/01,6615046
+Victoria,2020/09/01,6591437
+Victoria,2020/12/01,6567195
+Victoria,2021/03/01,6555302
+Victoria,2021/06/01,6547822
+Victoria,2021/09/01,6543116
+Victoria,2021/12/01,6555013
+Victoria,2022/03/01,6591580
+Victoria,2022/06/01,6615232
+Victoria,2022/09/01,6657690
+Victoria,2022/12/01,6700395
+Victoria,2023/03/01,6757251
+Victoria,2023/06/01,6797169
+Victoria,2023/09/01,6845666
+Victoria,2023/12/01,6881068
+Victoria,2024/03/01,6928534
+Victoria,2024/06/01,6950823
+Victoria,2024/09/01,6982857
+Victoria,2024/12/01,7007650
+Victoria,2025/03/01,7053122
+Queensland,2015/03/01,4764439
+Queensland,2015/06/01,4777692
+Queensland,2015/09/01,4791520
+Queensland,2015/12/01,4804933
+Queensland,2016/03/01,4826538
+Queensland,2016/06/01,4845152
+Queensland,2016/09/01,4865303
+Queensland,2016/12/01,4882939
+Queensland,2017/03/01,4906370
+Queensland,2017/06/01,4926380
+Queensland,2017/09/01,4945129
+Queensland,2017/12/01,4960965
+Queensland,2018/03/01,4985955
+Queensland,2018/06/01,5006623
+Queensland,2018/09/01,5027543
+Queensland,2018/12/01,5046434
+Queensland,2019/03/01,5070306
+Queensland,2019/06/01,5088847
+Queensland,2019/09/01,5110540
+Queensland,2019/12/01,5129741
+Queensland,2020/03/01,5154305
+Queensland,2020/06/01,5165613
+Queensland,2020/09/01,5173071
+Queensland,2020/12/01,5184329
+Queensland,2021/03/01,5199548
+Queensland,2021/06/01,5215814
+Queensland,2021/09/01,5230029
+Queensland,2021/12/01,5249672
+Queensland,2022/03/01,5283479
+Queensland,2022/06/01,5310905
+Queensland,2022/09/01,5342317
+Queensland,2022/12/01,5376678
+Queensland,2023/03/01,5415786
+Queensland,2023/06/01,5450235
+Queensland,2023/09/01,5485974
+Queensland,2023/12/01,5516476
+Queensland,2024/03/01,5548832
+Queensland,2024/06/01,5571675
+Queensland,2024/09/01,5595122
+Queensland,2024/12/01,5619059
+Queensland,2025/03/01,5647468
+South Australia,2015/03/01,1698433
+South Australia,2015/06/01,1700668
+South Australia,2015/09/01,1703703
+South Australia,2015/12/01,1705937
+South Australia,2016/03/01,1710334
+South Australia,2016/06/01,1712843
+South Australia,2016/09/01,1717275
+South Australia,2016/12/01,1719580
+South Australia,2017/03/01,1725253
+South Australia,2017/06/01,1728673
+South Australia,2017/09/01,1733055
+South Australia,2017/12/01,1735654
+South Australia,2018/03/01,1742255
+South Australia,2018/06/01,1746137
+South Australia,2018/09/01,1751849
+South Australia,2018/12/01,1755715
+South Australia,2019/03/01,1762889
+South Australia,2019/06/01,1767395
+South Australia,2019/09/01,1774006
+South Australia,2019/12/01,1778928
+South Australia,2020/03/01,1787847
+South Australia,2020/06/01,1790355
+South Australia,2020/09/01,1792178
+South Australia,2020/12/01,1794514
+South Australia,2021/03/01,1798586
+South Australia,2021/06/01,1802601
+South Australia,2021/09/01,1803789
+South Australia,2021/12/01,1807839
+South Australia,2022/03/01,1818356
+South Australia,2022/06/01,1824969
+South Australia,2022/09/01,1833331
+South Australia,2022/12/01,1840187
+South Australia,2023/03/01,1851014
+South Australia,2023/06/01,1857646
+South Australia,2023/09/01,1865760
+South Australia,2023/12/01,1870937
+South Australia,2024/03/01,1878655
+South Australia,2024/06/01,1882175
+South Australia,2024/09/01,1887038
+South Australia,2024/12/01,1891270
+South Australia,2025/03/01,1898587
+Western Australia,2015/03/01,2536604
+Western Australia,2015/06/01,2540672
+Western Australia,2015/09/01,2545509
+Western Australia,2015/12/01,2547745
+Western Australia,2016/03/01,2554506
+Western Australia,2016/06/01,2555978
+Western Australia,2016/09/01,2564492
+Western Australia,2016/12/01,2569606
+Western Australia,2017/03/01,2579276
+Western Australia,2017/06/01,2585720
+Western Australia,2017/09/01,2594138
+Western Australia,2017/12/01,2599928
+Western Australia,2018/03/01,2610320
+Western Australia,2018/06/01,2617792
+Western Australia,2018/09/01,2628121
+Western Australia,2018/12/01,2636404
+Western Australia,2019/03/01,2649641
+Western Australia,2019/06/01,2659625
+Western Australia,2019/09/01,2674246
+Western Australia,2019/12/01,2688799
+Western Australia,2020/03/01,2706350
+Western Australia,2020/06/01,2712912
+Western Australia,2020/09/01,2720001
+Western Australia,2020/12/01,2728187
+Western Australia,2021/03/01,2739105
+Western Australia,2021/06/01,2749365
+Western Australia,2021/09/01,2755583
+Western Australia,2021/12/01,2763240
+Western Australia,2022/03/01,2778421
+Western Australia,2022/06/01,2793934
+Western Australia,2022/09/01,2815907
+Western Australia,2022/12/01,2839523
+Western Australia,2023/03/01,2868478
+Western Australia,2023/06/01,2890936
+Western Australia,2023/09/01,2916222
+Western Australia,2023/12/01,2937647
+Western Australia,2024/03/01,2962651
+Western Australia,2024/06/01,2977910
+Western Australia,2024/09/01,2995415
+Western Australia,2024/12/01,3009399
+Western Australia,2025/03/01,3030183
+Tasmania,2015/03/01,514812
+Tasmania,2015/06/01,515117
+Tasmania,2015/09/01,515697
+Tasmania,2015/12/01,515694
+Tasmania,2016/03/01,516861
+Tasmania,2016/06/01,517514
+Tasmania,2016/09/01,519606
+Tasmania,2016/12/01,521981
+Tasmania,2017/03/01,524574
+Tasmania,2017/06/01,526762
+Tasmania,2017/09/01,529350
+Tasmania,2017/12/01,531561
+Tasmania,2018/03/01,534754
+Tasmania,2018/06/01,537291
+Tasmania,2018/09/01,540241
+Tasmania,2018/12/01,542927
+Tasmania,2019/03/01,545803
+Tasmania,2019/06/01,547841
+Tasmania,2019/09/01,549947
+Tasmania,2019/12/01,553340
+Tasmania,2020/03/01,555975
+Tasmania,2020/06/01,557578
+Tasmania,2020/09/01,559427
+Tasmania,2020/12/01,561881
+Tasmania,2021/03/01,564840
+Tasmania,2021/06/01,567239
+Tasmania,2021/09/01,567829
+Tasmania,2021/12/01,569609
+Tasmania,2022/03/01,571384
+Tasmania,2022/06/01,572300
+Tasmania,2022/09/01,572790
+Tasmania,2022/12/01,573343
+Tasmania,2023/03/01,573836
+Tasmania,2023/06/01,573731
+Tasmania,2023/09/01,573819
+Tasmania,2023/12/01,574214
+Tasmania,2024/03/01,574965
+Tasmania,2024/06/01,574746
+Tasmania,2024/09/01,574993
+Tasmania,2024/12/01,575481
+Tasmania,2025/03/01,576109
+Northern Territory,2015/03/01,243059
+Northern Territory,2015/06/01,244692
+Northern Territory,2015/09/01,244570
+Northern Territory,2015/12/01,244090
+Northern Territory,2016/03/01,244627
+Northern Territory,2016/06/01,245678
+Northern Territory,2016/09/01,246443
+Northern Territory,2016/12/01,246065
+Northern Territory,2017/03/01,246231
+Northern Territory,2017/06/01,247412
+Northern Territory,2017/09/01,247514
+Northern Territory,2017/12/01,246862
+Northern Territory,2018/03/01,246674
+Northern Territory,2018/06/01,247095
+Northern Territory,2018/09/01,247006
+Northern Territory,2018/12/01,245920
+Northern Territory,2019/03/01,246016
+Northern Territory,2019/06/01,246559
+Northern Territory,2019/09/01,246677
+Northern Territory,2019/12/01,246213
+Northern Territory,2020/03/01,246969
+Northern Territory,2020/06/01,247428
+Northern Territory,2020/09/01,247755
+Northern Territory,2020/12/01,247819
+Northern Territory,2021/03/01,248185
+Northern Territory,2021/06/01,248151
+Northern Territory,2021/09/01,249465
+Northern Territory,2021/12/01,250500
+Northern Territory,2022/03/01,252107
+Northern Territory,2022/06/01,253100
+Northern Territory,2022/09/01,254404
+Northern Territory,2022/12/01,255294
+Northern Territory,2023/03/01,256466
+Northern Territory,2023/06/01,257508
+Northern Territory,2023/09/01,258543
+Northern Territory,2023/12/01,259143
+Northern Territory,2024/03/01,259967
+Northern Territory,2024/06/01,260847
+Northern Territory,2024/09/01,261594
+Northern Territory,2024/12/01,262254
+Northern Territory,2025/03/01,263417
+Australian Capital Territory,2015/03/01,394491
+Australian Capital Territory,2015/06/01,395813
+Australian Capital Territory,2015/09/01,397540
+Australian Capital Territory,2015/12/01,398874
+Australian Capital Territory,2016/03/01,401673
+Australian Capital Territory,2016/06/01,403104
+Australian Capital Territory,2016/09/01,406040
+Australian Capital Territory,2016/12/01,408878
+Australian Capital Territory,2017/03/01,413017
+Australian Capital Territory,2017/06/01,415046
+Australian Capital Territory,2017/09/01,417964
+Australian Capital Territory,2017/12/01,420226
+Australian Capital Territory,2018/03/01,423810
+Australian Capital Territory,2018/06/01,426081
+Australian Capital Territory,2018/09/01,428417
+Australian Capital Territory,2018/12/01,430758
+Australian Capital Territory,2019/03/01,433801
+Australian Capital Territory,2019/06/01,435730
+Australian Capital Territory,2019/09/01,438633
+Australian Capital Territory,2019/12/01,440267
+Australian Capital Territory,2020/03/01,443035
+Australian Capital Territory,2020/06/01,444903
+Australian Capital Territory,2020/09/01,445749
+Australian Capital Territory,2020/12/01,447650
+Australian Capital Territory,2021/03/01,449573
+Australian Capital Territory,2021/06/01,452508
+Australian Capital Territory,2021/09/01,453398
+Australian Capital Territory,2021/12/01,456005
+Australian Capital Territory,2022/03/01,459556
+Australian Capital Territory,2022/06/01,461262
+Australian Capital Territory,2022/09/01,464015
+Australian Capital Territory,2022/12/01,465873
+Australian Capital Territory,2023/03/01,469185
+Australian Capital Territory,2023/06/01,471340
+Australian Capital Territory,2023/09/01,473817
+Australian Capital Territory,2023/12/01,474862
+Australian Capital Territory,2024/03/01,477529
+Australian Capital Territory,2024/06/01,478448
+Australian Capital Territory,2024/09/01,479921
+Australian Capital Territory,2024/12/01,481344
+Australian Capital Territory,2025/03/01,483767

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Population of States and Territories by State and Gender",
+  "width": 800,
+  "height": 400,
+  "data": {
+    "url": "state_pop.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "State", "type": "nominal", "title": "Australian State or Territory"},
+    "y": {"field": "Population", "type": "quantitative"},
+    "color": {"field": "Sex", "type": "nominal", "title": "Gender", "scale": {"range": ["#FFB1CB", "#01A6EA"]}},
+    "tooltip": [
+      {"field": "State", "type": "nominal"},
+      {"field": "Sex", "type": "nominal"},
+      {"field": "Population", "type": "quantitative"}
+    ]
+  }
+}

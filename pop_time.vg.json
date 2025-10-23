@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Population of States and Territories over Time",
+  "width": 700,
+  "height": 400,
+  "data": {
+    "url": "state_pop_time.csv"
+  },
+  "mark": {
+    "type": "line",
+    "point": true
+},
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "timeUnit": "yearmonthdate",
+      "title": "Date"
+    },
+    "y": {
+      "field": "Population",
+      "type": "quantitative",
+      "title": "Population",
+      "scale": {
+        "type": "log",
+        "base": 10
+      }
+    },
+    "color": {
+      "field": "State",
+      "type": "nominal",
+      "title": "State"
+    },
+    "tooltip": [
+      {"field": "State", "type": "nominal"},
+      {"field": "Date", "type": "temporal", "timeUnit": "yearmonth", "title": "Date"},
+      {"field": "Population", "type": "quantitative"}
+    ]
+  }
+}

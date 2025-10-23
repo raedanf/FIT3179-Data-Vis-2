@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Gross State Product of Australian States in Millions",
-  "width": 600,
+  "width": 850,
   "height": 400,
   "projection": {"type": "mercator"},
   "data": {
@@ -14,20 +14,22 @@
       "from": {
       "data": {"url": "gsp_australia.csv"},
       "key": "State",
-      "fields": ["GSP"]
+      "fields": ["GSP", "Population"]
       }
-    }
+    },
+    {"calculate": "floor(((datum.GSP*1000000)/datum.Population)*100)/100", "as": "GSPpC"}
   ],
   "mark": {"type": "geoshape", "stroke": "black"},
   "encoding": {
     "color": {
-    "field": "GSP",
+    "field": "GSPpC",
     "type": "quantitative",
     "scale": {"scheme": "blues"}
     },
     "tooltip": [
       {"field": "properties.name", "type": "nominal", "title": "State Name"},
-      {"field": "GSP", "type": "quantitative", "title": "GSP ($AUD millions)"}
+      {"field": "GSP", "type": "quantitative", "title": "GSP ($AUD millions)"},
+      {"field": "GSPpC", "type": "quantitative", "title": "GSP per Capita ($AUD)"}
     ]
   }
 }

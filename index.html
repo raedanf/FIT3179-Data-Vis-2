@@ -2,7 +2,6 @@
 
 <html lang="en">
 
-
 <head>
 
     <meta charset="UTF-8">
@@ -11,32 +10,229 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-
     <script src="data_vis2.js"></script>
 
     <title>Assignment 2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <h1>Chart 1</h1>
+    <div class="page">
 
-    <div id="bar_chart">
+        <h1 class="oswald-semi">Population and Economic Comparisons in Australian States and Territories</h1>
+
+        <h2 class="oswald-light">Raedan Fernandez</h2>
+
+        <p class="lato-regular">
+
+            Australia is divided into 6 States and 2 Territories. These 
+            areas differ greatly in Size, Population and Economic 
+            status. This visualisation will explore the differences 
+            between the States and Territories and how Australia has 
+            evolved over time.
+
+        </p>
+
+        <section>
+
+            <h3 class="oswald-semi">Population Demographics</h3>
+
+            <div class="grid-container2-1">
+
+                <div class="grid-left2-1">
+
+                    <div id="bar_chart"></div>
+
+                    <a href="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/latest-release#data-downloads", class="lato-regular-italic-l">Source: ABS</a>
+
+                </div>
+            
+                <div class="grid-right2-1">
+
+                    <p class="lato-regular">
+
+                        Although the populations in each region can 
+                        range from a few hundred thousand to multiple
+                        millions, the proportion of sexes in each 
+                        region is generally consistent across each 
+                        state and territory.
+
+                    </p>
+
+                </div>
+            
+            </div>
+
+            <div class="grid-container1-2">
+
+                <div class="grid-left1-2">
+
+                    <p class="lato-regular">
+
+                        Looking at the spread of population in terms 
+                        of age instead of region shows that although 
+                        the proportion of Males and Females is very 
+                        similar for younger age groups, in the more 
+                        senior groups, women far outnumber men. The 
+                        majority of people in Australia are millenials,
+                        with the population decreasing in older and 
+                        younger age groups.
+
+                    </p>
+
+                </div>
+            
+                <div class="grid-right1-2">
+
+                    <div id="pyramid_chart"></div>
+
+                    <a href="https://www.abs.gov.au/statistics/people/population/regional-population-age-and-sex/latest-release#data-downloads", class="lato-regular-italic-l">Source: ABS</a>
+
+                </div>
+            
+            </div>
+
+        </section>
         
-    </div>
+        <section>
 
-    <h1>Chart 2</h1>
+            <h3 class="oswald-semi">Population Spread</h3>
 
-    <div id="map_chart">
-        
+            <div class="grid-container2-1">
+
+                <div class="grid-left2-1">
+
+                    <div id="scatter_chart"></div>
+
+                    <a href="https://www.ga.gov.au/scientific-topics/national-location-information/dimensions/area-of-australia-states-and-territories", class="lato-regular-italic-l">Source: Geoscience Australia</a>
+                    <p></p>
+                    <a href="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/latest-release#data-downloads", class="lato-regular-italic-r">Source: ABS</a>
+
+                </div>
+            
+                <div class="grid-right2-1">
+
+                    <p class="lato-regular">
+
+                        The differences in populations and sizes 
+                        of regions in Australia is most evident 
+                        in this plot. As the chart on the left 
+                        shows, regions such as the ACT are 
+                        incredibly dense with around 200 people 
+                        per square kilometer. Conversely, the 
+                        Northern Territory is sparsely populated, 
+                        having less than 1 person for every 5 
+                        square kilometers.
+
+                    </p>
+
+                </div>
+            
+                
+            </div>
+
+            <div class="grid-container1-2">
+
+                <div class="grid-left1-2">
+
+                    <p class="lato-regular">
+
+                        Using a log scale for the populations 
+                        of each region, we can better see the 
+                        trends in the state populations. 
+                        Generally the populations of states and 
+                        territories grow consistently, with the 
+                        only exceptions to this trend being the 
+                        population of the ACT slowly approaching 
+                        the population of Tasmania and Victoria's 
+                        population having a slight reduction 
+                        during the pandemic; possibly due to 
+                        lockdowns.
+
+                    </p>
+
+                </div>
+            
+                <div class="grid-right1-2">
+
+                    <div id="line_chart"></div>
+                    <a href="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/latest-release#data-downloads", class="lato-regular-italic-l">Source: ABS</a>
+
+                </div>
+            
+                
+            </div>
+
+        </section>
+
+        <section>
+
+            <h3 class="oswald-semi">Economic Status</h3>
+
+            <div class="grid-container2-1">
+
+                <div class="grid-left2-1">
+
+                    <div id="map_chart"></div>
+
+                    <a href="https://simplemaps.com/gis/country/au", class="lato-regular-italic-l">Source: Simple Maps</a>
+                    <p></p>
+                    <a href="https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-state-accounts/latest-release", class="lato-regular-italic-r">Source: ABS</a>
+
+                </div>
+            
+                <div class="grid-right2-1">
+
+                    <p class="lato-regular">
+
+                        The majority of Australia's GDP comes from 
+                        the Eastern and Western states, with the central 
+                        regions having much lower GSPs. This is also 
+                        affected by the populations of each region, as 
+                        a more populated region will generally have a 
+                        higher GSP. When looking at GSPs per capita, 
+                        it becomes clear that Western Australia and the 
+                        Northern Territory have the highest GSPs when, 
+                        adjusting for their population size.
+
+                    </p>
+
+                </div>
+            
+            </div>
+
+        </section>
+
+        <p class="lato-regular">
+
+            Each Australian State and Territory is unique, 
+            with each region varying greatly in size, 
+            population demographics and economic output.
+
+        </p>
+
+        <p class="lato-regular">
+
+            Over time, with the country progressing and 
+            changing at its current rate, the demographics 
+            and populations of each region will continue to 
+            provide interesting trends and patterns to analyse.
+
+        </p>
+
     </div>
 </body>
 </html>

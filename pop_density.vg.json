@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Population Density of States and Territories",
+  "width": 700,
+  "height": 400,
+  "data": {
+    "url": "pop_density.csv"
+  },
+  "transform": [
+    {"calculate": "floor((datum.Population/datum.Size)*100)/100", "as": "Density"}
+  ],
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "Size", "type": "quantitative"},
+    "y": {"field": "Population", "type": "quantitative"},
+    "color": {"field": "State"},
+    "size": {"field": "Density", "scale": {"nice": true}},
+    "tooltip": [
+      {"field": "State", "type": "nominal"},
+      {"field": "Population", "type": "quantitative"},
+      {"field": "Size", "type": "quantitative", "title": "Size (km squared)"},
+      {"field": "Density", "type": "quantitative", "title": "Population Density (Population / km squared)"}
+    ]
+  }
+}

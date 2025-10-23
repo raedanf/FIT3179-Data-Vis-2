@@ -1,0 +1,18 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "pop_age.csv"},
+  "title": "Population of States and Territories by Age and Gender",
+  "width": 800,
+  "height": 400,
+  "mark": "bar",
+  "encoding": {
+    "y": {"field": "AgeGroup", "type": "ordinal", "sort": "-y", "title": "Age Group"},
+    "x": {"field": "Population", "type": "quantitative"},
+    "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["#FFB1CB", "#01A6EA"]}},
+    "tooltip": [
+      {"field": "AgeGroup", "type": "ordinal"},
+      {"field": "Gender", "type": "nominal"},
+      {"field": "Population", "type": "quantitative"}
+    ]
+  }
+}
